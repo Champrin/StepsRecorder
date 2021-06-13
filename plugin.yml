@@ -1,0 +1,19 @@
+name: StepsRecorder
+main: xyz.champrin.stepsrecorder.StepsRecorder
+version: "1.0.0"
+api: ["1.0.8","1.0.12"]
+
+author: Champrin
+description: "StepsRecorder"
+
+commands:
+  step:
+    permission: StepsRecorder.command.true
+    usage: "/step help"
+    description: "§eStepsRecorder Helper"
+    aliases: []
+permissions:
+  StepsRecorder.command.op:
+    default: op
+  StepsRecorder.command.true:
+    default: true
